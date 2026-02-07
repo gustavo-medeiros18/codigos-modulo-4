@@ -1,0 +1,17 @@
+Estrutura do python que gerencia a abertura
+e fechamento de arquivos externos automaticamente
+
+- "modo" pode ser "w" para escrita ou
+"r" para leitura
+- ao chegar ao fim do bloco pertencente
+ao with (há indentação), o arquivo será
+automaticamente fechado pelo python
+
+with open("nome_arquivo", "modo") as variavel_temporaria:
+    comando_1
+    comando_2
+    comando_3
+
+Após o comando_3 do exemplo, que é o último do bloco
+do with, o arquivo será automaticamente fechado,
+pois terminamos de trabalhar com ele.

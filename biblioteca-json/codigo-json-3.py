@@ -3,6 +3,10 @@ import json
 # Causará exceção pois o campo
 # numeros_preferidos não poderá
 # ser convertido para string JSON
+
+# Sem o campo numeros_preferidos,
+# o dict poderá ser convertido
+# normalmente.
 pessoa = {
     "nome": "Daniel",
     "idade": 50,
